@@ -18,31 +18,31 @@ body {
   color: #5a5a5a;
 }
 
-/* MARKETING CONTENT
+/* PROFILE BLOCK
 -------------------------------------------------- */
 
-.marketing .col-lg-6 {
+.profile .col-lg-6 {
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
 }
-.marketing h2 {
+.profile h2 {
   font-weight: normal;
 }
-.marketing .col-lg-6 p {
+.profile .col-lg-6 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.profile .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+.profile h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.profile .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
