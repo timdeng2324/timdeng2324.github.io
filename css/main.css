@@ -2,6 +2,17 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+/*
+  Theme colors (creds to https://www.pinterest.com/pin/102738435219302377/):
+    Pastel green: #5ca48c (cadetblue);
+    Dark green:   #046f69 (teal);
+    Red:          #f40a49 (crimson);
+    Orange:       #f49565 (sandybrown);
+    Yellow:       #f3d895 (khaki);
+    Light pink:   #fc81af (hotpink);
+    Hot pink:     #f1079c (deeppink);
+*/
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
