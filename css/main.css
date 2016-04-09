@@ -3,19 +3,28 @@
 /* Padding below the footer and lighter body text */
 
 /*
-  Theme colors (creds to https://www.pinterest.com/pin/102738435219302377/):
-    Pastel green: #5ca48c (cadetblue);
-    Dark green:   #046f69 (teal);
-    Red:          #f40a49 (crimson);
-    Orange:       #f49565 (sandybrown);
-    Yellow:       #f3d895 (khaki);
-    Light pink:   #fc81af (hotpink);
-    Hot pink:     #f1079c (deeppink);
+  Theme colors (creds to https://www.pinterest.com/pin/102738435226484390/):
+    peachpuff:      #ffd2c3;
+    khaki:          #f1e64e;
+    darkkhaki:      #cfca6f;
+    salmon:         #ea706f;
+      5 darker:     #e34544;
+    darkolivegreen: #5e6a3c;
+
 */
 
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+}
+
+a {
+  color: #ea706f;
+}
+
+a:hover,
+a:focus {
+  color: #e34544;
 }
 
 /* PROFILE BLOCK
@@ -47,10 +56,30 @@ body {
   margin-left: 10px;
 }
 
-.fa-ul { /* make the alignment nice! */
+.profile .fa-ul { /* make the alignment nice! */
   margin-left: auto;
   margin-right: auto;
-  width: 277.5px;
+  width: 210.891px;
+}
+
+.profile #me {
+  border: 15px solid #ea706f;
+}
+
+.profile .img-circle {
+  border: 10px solid;
+}
+
+.profile .col-lg-4:nth-child(1) .img-circle {
+  border-color: #f1e64e;
+}
+
+.profile .col-lg-4:nth-child(2) .img-circle {
+  border-color: #cfca6f;
+}
+
+.profile .col-lg-4:nth-child(3) .img-circle {
+  border-color: #f1e64e;
 }
 
 
