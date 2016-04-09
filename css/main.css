@@ -101,6 +101,12 @@ body {
   margin-left: 10px;
 }
 
+.fa-ul { /* make the alignment nice! */
+  margin-left: auto;
+  margin-right: auto;
+  width: 277.5px;
+}
+
 
 /* Featurettes
 ------------------------- */
