@@ -10,7 +10,6 @@
     salmon:         #ea706f;
       5 darker:     #e34544;
     darkolivegreen: #5e6a3c;
-
 */
 
 body {
@@ -59,7 +58,8 @@ a:focus {
 }
 
 li {
-  margin-bottom: .3em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .profile .fa-ul { /* make the alignment nice! */
@@ -90,14 +90,173 @@ li {
 
 /* Icons
 ------------------------- */
+.icons > a > span {
+  margin: .3em .3em .3em .3em;
+}
+
+/* Facebook icon */
+.facebook-icon:link,
+.facebook-icon:visited {
+  color: #4a6eb9; /* 5 shades lighter */
+}
+
+.facebook-icon:hover,
+.facebook-icon:focus {
+  color: #4183c4; /* facebook blue */
+}
+
+/* GitHub icon */
+.github-icon:link,
+.github-icon:visited {
+  color: #3b5998; /* 5 shades lighter */
+}
+
+.github-icon:hover,
+.github-icon:focus {
+  color: #4183c4; /* github blue */
+}
+
+/* Twitter icon */
+.twitter-icon:link,
+.twitter-icon:visited {
+  color: #81c1f2; /* 5 shades lighter */
+}
+
+.twitter-icon:hover,
+.twitter-icon:focus {
+  color: #55acee; /* twitter blue */
+}
+
+/* Linkedin icon */
+.linkedin-icon:link,
+.linkedin-icon:visited {
+  color: #0096e5; /* 5 shades lighter */
+}
+
+.linkedin-icon:hover,
+.linkedin-icon:focus {
+  color: #0077b5; /* linkedin blue */
+}
+
+/* Foursquare icon */
 .foursquare-icon:link,
 .foursquare-icon:visited {
-  color: black;
+  color: #fa799b; /* 5 shades lighter */
 }
 
 .foursquare-icon:hover,
 .foursquare-icon:focus {
-  color: gray;
+  color: #f94877; /* foursquare pink */
+}
+
+/* Youtube icon */
+.youtube-icon:link,
+.youtube-icon:visited {
+  color: #e13d3c; /* 5 shades lighter */
+}
+
+.youtube-icon:hover,
+.youtube-icon:focus {
+  color: #cd201f; /* youtube red */
+}
+
+/* Reddit icon */
+.reddit-icon:link,
+.reddit-icon:visited {
+  color: #ff6a33; /* 5 shades lighter */
+}
+
+.reddit-icon:hover,
+.reddit-icon:focus {
+  color: #ff4500; /* reddit red */
+}
+
+/* Trello icon */
+.trello-icon:link,
+.trello-icon:visited {
+  color: #0097ef; /* 5 shades lighter */
+}
+
+.trello-icon:hover,
+.trello-icon:focus {
+  color: #0079bf; /* trello blue */
+}
+
+/* Spotify icon */
+.spotify-icon:link,
+.spotify-icon:visited {
+  color: #4ad373; /* 5 shades lighter */
+}
+
+.spotify-icon:hover,
+.spotify-icon:focus {
+  color: #2ebd59; /* spotify green */
+}
+
+/* AngelList icon */
+.angellist-icon:link,
+.angellist-icon:visited {
+  color: #d5d5d5; /* angellist gray */
+}
+
+.angellist-icon:hover,
+.angellist-icon:focus {
+  color: #bcbcbc; /* 5 shades darker */
+}
+
+/* Vine icon */
+.vine-icon:link,
+.vine-icon:visited {
+  color: #00e5ad; /* 5 shades lighter */
+}
+
+.vine-icon:hover,
+.vine-icon:focus {
+  color: #00b488; /* vine green */
+}
+
+/* Medium icon */
+.medium-icon:link,
+.medium-icon:visited {
+  color: #82ffb5; /* lighter medium green */
+}
+
+.medium-icon:hover,
+.medium-icon:focus {
+  color: #5cffa0; /* medium green */
+}
+
+/* Stack exchange icon */
+.stack-exchange-icon:link,
+.stack-exchange-icon:visited {
+  color: #fe9748; /* 5 shades lighter */
+}
+
+.stack-exchange-icon:hover,
+.stack-exchange-icon:focus {
+  color: #fe7a15; /* stack overflow orange */
+}
+
+/* Product Hunt icon */
+.product-hunt-icon:link,
+.product-hunt-icon:visited {
+  color: #e1785a; /* 5 shades lighter */
+}
+
+.product-hunt-icon:hover,
+.product-hunt-icon:focus {
+  color: #da552f; /* product hunt orange */
+}
+
+/* Instagram icon */
+.instagram-icon:link,
+.instagram-icon:visited {
+  color: #548cb9; /* 5 shades lighter */
+}
+
+.instagram-icon:hover,
+.instagram-icon:focus {
+  color: #3f729b; /* instagram blue */
 }
 
 
